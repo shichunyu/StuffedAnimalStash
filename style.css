@@ -1,0 +1,62 @@
+h1 {
+	color: white;
+	font-family: calibri;
+}
+
+h2 {
+	color: white;
+	font-family: calibri;
+}
+
+h3 {
+	color: red;
+	font-family: calibri;
+}
+
+p {
+	color: magenta;
+	font-family: calibri;
+	margin-bottom: 0;
+
+}
+
+.parent {
+	position: relative;
+}
+
+.parent .center-wrapper {
+	position: absolute;
+	left: 50%
+}
+
+.parent .center-wrapper .center-content {
+	position: relative;
+	left: -50%;
+	width: 800px;
+}
+
+#header {
+	background-color: #FF9696;
+	margin: 0;
+	border: 0
+	padding: 5px;
+}
+
+#form {
+	background-color: #ffc0c0;
+	width: 20%;
+	float: left;
+	padding: 0 24px;
+}
+
+#list {
+	width: 60%;
+	float: left;
+	padding: 0 25px;
+}
+
+#errorOther, #errorName {
+	font-family: calibri;
+	color: red;
+	border: 0;
+}
